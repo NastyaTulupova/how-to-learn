@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -36,6 +31,7 @@
 .header__title {
   color: #000000;
   width: 730px;
+  padding: 0;
   margin: 0 0 0 64px;
   font-size: 102px;
   line-height: 96px;
@@ -44,6 +40,8 @@
 }
 
 .header__subtitle {
+  padding: 0;
+  margin: 0;
   color: #000000;
   line-height: 25px;
   font-size: 18px;
@@ -91,6 +89,8 @@
 }
 
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   width: 175px;
   color: #2f80ed;
   line-height: 1.2;
@@ -107,6 +107,8 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -125,6 +127,8 @@
 }
 
 .section-title {
+  margin: 0;
+  padding: 0;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -134,6 +138,7 @@
 
 .section-subtitle {
   margin: 20px 0 0 0;
+  padding: 0;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -154,6 +159,8 @@
 }
 
 .table__heading {
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -161,6 +168,7 @@
 
 .table__text {
   margin: 20px 0 0 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -181,6 +189,7 @@
 
 .feynman__title {
   margin: 100px 0 0 0;
+  padding: 0;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -197,6 +206,7 @@
 
 .feynman__subtitle {
   margin: 70px 0 0 0;
+  padding: 0;
 }
 
 .feynman__link {
@@ -209,7 +219,7 @@
 
 .kaufman {
   padding: 90px 0 90px 0;
-  background-color: black;
+  background-color: #1f1f1f;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -237,6 +247,7 @@
 }
 
 .kaufman__triangle {
+  background-image: url('../images/kaufman-triangle.svg');
   position: absolute;
   top: 0;
   right: -210px;
@@ -246,7 +257,7 @@
 
 .footer {
   padding: 60px 0px 40px 0px;
-  background-color: #000000;
+  background-color: #1f1f1f;
   min-height: 350px;
   display: flex;
   flex-direction: column;
@@ -271,18 +282,22 @@
 }
 
 .logo_place_footer {
-  size: 228px 32px;
+  width: 228px;
+  height: 32px;
 }
 
 .footer__author {
   color: white;
   margin: 18px 0 18px 0;
+  padding: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
 
 .footer__column-heading {
+  margin: 0;
+  padding: 0;
   color: white;
   line-height: 30px;
   font-size: 18px;
@@ -305,6 +320,7 @@
 }
 
 .footer__social-icon {
-  size: 16px 16px;
+  width: 16px;
+  height: 16px;
   margin-right: 10px;
 }
