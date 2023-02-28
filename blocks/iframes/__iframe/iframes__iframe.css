@@ -1,0 +1,7 @@
+.iframes__iframe {
+  margin-right: 20px;
+}
+
+.iframes__iframe:last-child {
+  margin-right: 0;
+}
